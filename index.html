@@ -29,6 +29,7 @@
           <a href="./index.html" class="logo link"
             >Web<span class="logo-dark">Studio</span></a
           >
+
           <ul class="menu list">
             <li class="item">
               <a href="./index.html" class="menu-header activ link">Studio</a>
@@ -56,22 +57,43 @@
             </li>
           </ul>
         </address>
+        <!-- -->
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="32"
+            height="22"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="./images/icon.svg#icon-charm_menu-hamburg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <!-- / -->
       </div>
     </header>
 
     <main>
       <!-- Section Hero image-->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="btn hero-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Modal window -->
-      <div class="background is-hidden" data-modal>
+      <!-- <div class="background is-hidden" data-modal>
         <div class="modal">
           <button class="modal-btn" type="button" data-modal-close>
             <svg class="modal-icon" width="8" height="8">
@@ -79,7 +101,7 @@
             </svg>
           </button>
 
-          <!-------------------------------------------------------------->
+          
           <strong class="modal-text">
             Leave your contacts and we will call you back
           </strong>
@@ -160,16 +182,14 @@
 
             <button class="btn" type="submit">Send</button>
           </form>
-
-          <!-- /------------------------------------------------------------------>
         </div>
-      </div>
+      </div> -->
 
       <!-- Section 2  -->
       <section class="section">
         <div class="container">
           <h2 class="section-title visually-hidden">Company features</h2>
-          <ul class="feature-list list">
+          <ul class="team-list list feature-list">
             <li class="functions">
               <div class="functions-ikon">
                 <svg class="icon-svg" width="64" height="64">
@@ -226,7 +246,7 @@
       </section>
 
       <!-- Section 3 -->
-      <section class="section-three">
+      <!-- <section class="section-three">
         <div class="container">
           <h2 class="section-subject">What are we doing</h2>
           <ul class="section-image list">
@@ -259,10 +279,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section 4 -->
-      <section class="sections-page">
+      <!-- <section class="sections-page">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="sections-list list">
@@ -539,10 +559,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section 5 -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
 
@@ -596,13 +616,13 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Footer page -->
-    <footer class="footer">
-      <!-- 1 -->
-      <div class="container footer-soc-media">
+    <!-- <footer class="footer"> -->
+    <!-- 1 -->
+    <!-- <div class="container footer-soc-media">
         <div class="footer-list">
           <a href="./index.html" class="footer-logo logo link"
             >Web<span class="logo-light">Studio</span></a
@@ -611,9 +631,9 @@
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
-        </div>
-        <!-- 2 -->
-        <div class="footer-social-media">
+        </div> -->
+    <!-- 2 -->
+    <!-- <div class="footer-social-media">
           <p class="footer-text-social">Social media</p>
           <ul class="social-list media-footer list">
             <li class="social-list-item">
@@ -669,9 +689,9 @@
               </a>
             </li>
           </ul>
-        </div>
-        <!-- 3 -->
-        <div class="footer-email">
+        </div> -->
+    <!-- 3 -->
+    <!-- <div class="footer-email">
           <p class="footer-text-social">Subscribe</p>
           <form class="footer-email-btm">
             <label class="footer-label">
@@ -693,8 +713,114 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="item">
+          <a href="./index.html" class="menu-header activ link">Studio</a>
+        </li>
+        <li class="item">
+          <a href="./portfolio.html" class="menu-header link">Portfolio</a>
+        </li>
+        <li class="item">
+          <a href="" class="menu-header link">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacs list">
+        <li class="mobile-contacts-item">
+          <a class="contacs-tel link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="">
+          <a class="contacs-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="social-list-item">
+          <a
+            class="social-link soc-footer link"
+            href="http://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram ikon"
+          >
+            <svg class="social-ikon" width="24" height="24">
+              <use href="./images/icon.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-link soc-footer link"
+            href="http://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter ikon"
+          >
+            <svg class="social-ikon" width="24" height="24">
+              <use href="./images/icon.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-link soc-footer link"
+            href="http://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook ikon"
+          >
+            <svg class="social-ikon" width="24" height="24">
+              <use href="./images/icon.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-link soc-footer link"
+            href="http://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin ikon"
+          >
+            <svg class="social-ikon" width="24" height="24">
+              <use href="./images/icon.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
     <!-- Підключення скрипту для модально вікна -->
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
