@@ -512,10 +512,7 @@ img {
   left: 0;
 
   width: 100%;
-
-  height: 586px;
-  max-height: 90vh;
-  overflow-y: scroll;
+  height: 100%;
 
   background: rgba(46, 47, 66, 0.4);
 
@@ -545,8 +542,17 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  height: 586px;
+  max-height: 90vh;
+  overflow-y: scroll;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+  .modal {
+    width: calc(100% - 30px);
+  }
+}
 @media only screen and (min-width: 768px) {
   .modal {
     width: 408px;
@@ -849,12 +855,6 @@ img {
   | Section 4 index.html
   |============================
 */
-
-/* @media only screen and (min-width: 768px) and (max-width: 1157px) {
-  .team-card-container {
-    max-width: 572px;
-  }
-} */
 
 .sections-page {
   padding-top: 120px;
@@ -1277,6 +1277,11 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
 }
+@media only screen and (max-width: 767px) {
+  .footer-email {
+    width: 100%;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .footer-email {
@@ -1296,7 +1301,6 @@ img {
 
 .footer-label {
   display: block;
-  width: 398px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1536,6 +1540,12 @@ img {
   color: var(--bgr-btn-color);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+  .mobile-contacs-tel {
+    font-size: 26px;
+  }
+}
+
 .mobile-contacs-mail {
   font-weight: 500;
   font-size: 20px;
@@ -1548,4 +1558,10 @@ img {
 .mobile-socials {
   display: flex;
   gap: 56px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+  .mobile-socials {
+    gap: 34px;
+  }
 }
