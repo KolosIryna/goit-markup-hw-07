@@ -89,6 +89,7 @@ body {
     --items-c: 6;
   }
 }
+
 /* reset start */
 h1,
 h2,
@@ -178,10 +179,12 @@ img {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .header-page {
   display: flex;
   align-items: center;
 }
+
 .nav-page {
   display: flex;
   margin-right: auto;
@@ -531,11 +534,9 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
 
   width: 392px;
-
   padding: 72px 16px 24px 16px;
 
   background: var(--dairy);
@@ -594,8 +595,7 @@ img {
   fill: var(--withe-color);
   background-color: var(--pressed-state-color);
 }
-/*-------------------------------------------------------------*/
-
+/*----------------Modal form----------------*/
 .modal-text {
   display: block;
 
@@ -652,6 +652,7 @@ img {
 
   transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-imput:hover,
 .modal-imput:focus {
   outline-color: var(--bgr-btn-color);
@@ -758,8 +759,8 @@ img {
 .modal-form-agreement-link {
   color: var(--btn-color);
 }
-
 /* ................................................................. */
+
 /**
   |============================
   | Section 2 index.html
@@ -807,11 +808,13 @@ img {
 
   color: var(--title-text-color);
 }
+
 @media only screen and (max-width: 767px) {
   .section-heading {
     text-align: center;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .section-heading {
     font-weight: 500;
@@ -855,7 +858,6 @@ img {
   | Section 4 index.html
   |============================
 */
-
 .sections-page {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -958,7 +960,7 @@ img {
 */
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .customers-conteiner {
-    max-width: 572px;
+    max-width: 582px;
   }
 }
 
@@ -1187,7 +1189,7 @@ img {
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-soc-media {
-    max-width: 572px;
+    max-width: 582px;
   }
 }
 
@@ -1328,7 +1330,6 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
 
-  /* width: 264px; */
   width: 100%;
   height: 40px;
   padding: 8px 16px;
@@ -1517,6 +1518,7 @@ img {
 .mobile-menu-header.activ {
   color: var(--pressed-state-color);
 }
+
 .mobile-address {
   font-style: normal;
 }
